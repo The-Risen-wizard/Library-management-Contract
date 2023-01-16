@@ -10,7 +10,7 @@ contract Library {
 
     struct Books {
         string name;
-        string jonor;
+        string genere;
         uint id;
     }
 
