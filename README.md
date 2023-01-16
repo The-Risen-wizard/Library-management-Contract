@@ -1,1 +1,2 @@
 # Library-management-Contract
+In this smart contract I have created a library management system and is created in a way in which we can Create Books to add book/books in library which can be only accesed by the librarian(owner of this contract), created issuebook function which will issue book to a certain address i.e the adress of the issuer which can only be invoked by librarian. The amount of books present in the library will also be stored in the balance of the books of the contract. We can also return the book.
