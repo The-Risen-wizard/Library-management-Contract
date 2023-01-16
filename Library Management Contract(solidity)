@@ -42,7 +42,7 @@ contract Library {
     }
 
     function returnBook() public {
-        require(numBalance[msg.sender] <= 3 , "Emptiness");
+        require(numBalance[msg.sender] >= 3 , "Emptiness");
         delete(booksBalance[msg.sender]);
         numBalance[msg.sender]--;
     }
